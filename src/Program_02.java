@@ -3,7 +3,8 @@ import java.sql.*;
 
 public class Program_02 {
     public static void main(String[] args) {
-        Connection conn = null; // Step 1: Declare outside try so we can use in finally
+        // Step 1: Declare outside try so we can use in finally
+        Connection conn = null;
 
         try {
             // Step 2: Load the Driver
