@@ -1,3 +1,4 @@
+package JDBC;
 
 import java.util.Scanner;
 import java.sql.*;
@@ -9,9 +10,9 @@ public class main {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             // Step 2 : Create Connection.
-            String url = "jdbc:mysql://localhost:3306/testdb";
+            String url = "jdbc:mysql://localhost:3306/aditya_jdbc";
             String username = "root";
-            String password = "admin";
+            String password = "Adityahindustantimes@123";
 
             Connection conn = DriverManager.getConnection(url, username, password);
 
