@@ -7,6 +7,6 @@ public class Connection_and_Inserting {
         Connection conn=null;
 
 //        Step 1: Load The Driver.
-        Class
+
     }
 }
